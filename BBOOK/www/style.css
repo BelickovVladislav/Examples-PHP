@@ -1,0 +1,184 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+th 
+{
+border-style: ridge; 
+border-width: 4px;
+} 
+fieldset, legend, label
+{
+    color: white;
+}
+tr 
+{
+border-style: ridge; 
+border-width: 4px;
+}
+
+
+.Chibi {
+    
+    margin: 10px 5%;
+    border-radius: 30px 30px;
+background-color: rgba(255, 255, 255, 0.49);
+    float: left;
+    width: 40%; 
+    height: 350px;
+}
+
+.Chibi:hover {
+   background-color:  rgba(244, 129, 69, 0.53); 
+    color: aliceblue;
+   
+}
+
+
+.Chichi {
+    padding: 80px 0;
+    vertical-align: middle; 
+    margin 0 0;
+    font-size: 60px; 
+    font-family: PhillippScript;
+    color: rgba(255, 255, 255, 0.85); 
+}
+
+h1
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-size: 30px;
+    
+}
+ .buy {
+        border: 1px solid #333; 
+        display: inline-block;
+        padding: 5px 15px;
+        text-decoration: none; 
+        color: #000; 
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+        background: linear-gradient(to bottom, #87868b, #ffffff); 
+        color: #a00;
+    }
+
+ .buy:hover {
+        border: 1px solid #333; 
+        display: inline-block;
+        padding: 5px 15px;
+        text-decoration: none; 
+        color: #000; 
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+        background: linear-gradient(to bottom, #fd4646, #ffffff); 
+        color: #8d0303;
+    }
+
+body {
+background-image: url('img/luxfon.com_5390.jpg');
+    background-attachment: fixed;
+    background-position: bottom right ; 
+    background-size: cover;
+}
+
+header {
+
+width: 100%;
+    height: 200px;
+    background-image: url('img/books2.jpg');
+    background-position: top; border-radius: 20px 50px; 
+    margin: 0 0 20px 0;
+    background-size: cover;
+}
+
+header p {
+padding: 55px 0;
+    vertical-align: middle;
+    margin 0 0; 
+    font-size: 150px;
+    font-family: PhillippScript;
+    color: rgba(255, 255, 255, 0.85); 
+}
+
+
+#science {
+height: 200px;
+    background-image: url('img/Без имени-1.jpg');
+}
+
+#art {
+height: 200px;
+    background-image: url('img/hatsune_miku_vocaloid_by_rella.jpg');
+    background-position:  50% 50%;
+    background-size: cover;
+
+}
+
+#history {
+
+height: 200px;
+    background-image: url('img/XMbzTuz-RCA.jpg');
+    background-position: 30% 30%;
+    background-size: cover;
+}
+
+
+.unit {
+margin: 0 0 400px 0;
+}
+
+#content {
+width: 70%; 
+    margin: 0 auto;
+    border-style: ridge;
+}
+
+
+#basket {
+width: 15%; 
+    height: 30%; 
+    position: fixed; 
+    overflow: auto;
+    margin: 35% 0 0 85%;
+}
