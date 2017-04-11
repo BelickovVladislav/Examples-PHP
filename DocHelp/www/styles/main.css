@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body {
+	background: url("../images/background.png") #EAEAEA;
+}
+a{
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+}
+.b3radius{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+/**********Стартовая страница**********/
+h1{
+	margin-top: 55px;
+	font-size: 80px ;
+}
+h4{
+	float: left;
+	margin-left: 57px;
+	font-size: 23px;
+}
+#page_align{
+	width: 1000px;
+	margin: 35px auto;
+	background: #FFF;
+	box-shadow: 0px 1px 3px #DDDDDD;
+	-webkit-box-shadow: 0px 1px 3px #DDDDDD;
+	-o-box-shadow: 0px 1px 3px #DDDDDD;
+	-moz-box-shadow: 0px 1px 3px #DDDDDD;
+	overflow: hidden;
+}
+#Header {
+	height: 175px;
+	border-bottom: solid 4px #33a137;
+}
+#Logo{
+	padding-right: 8px;
+	margin-top: 12px;
+	margin-left: 55px;
+	float: left;
+}
+#Button a{
+	float: right;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-right: 70px;
+	color: #FFF;
+	background: #33a137;
+	padding: 30px 60px;
+	border-radius: 7px;
+}
+#Button a:hover{
+	background: #39c33e;
+}
+#Content{
+	width: 1000px;
+	height: 600px;
+	background: url("../images/Doctors.jpg") no-repeat;
+	background-position: center bottom;
+	float: right;
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 55px;
+
+}
+/**Form_Registration**/
+h3{
+	margin-top: 15px;
+	padding-bottom: 10px;
+	width: 1000px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #33a137;
+	text-align: center;
+}
+h5{
+	margin-top: 15px;
+	color:#FFF;
+	font-size: 25px;
+	text-decoration: none;
+}
+.Registration{
+}
+.Registration select{
+font-size: 15px;
+width: 350px;
+height: 55px;
+}
+.Registration input{
+font-size: 15px;
+margin: 40px auto;
+float: center;
+width: 350px;
+height: 55px;
+}
+#Container{
+	margin-top: 30px;
+	width: 500px;
+	height: 800px;
+	border: solid 5px #3a903d;
+	border-radius: 30px;
+	background: #5aba5d;
+}
+/**********Form_Choose************/
+#Thank_you{
+	height: 300px;
+	padding-top: 80px;
+	margin: auto;
+	text-align: center;
+	color: #39c33e;
+	font-size: 45px;
+}
+#Butt_1 a{
+	float: left;
+	font-size: 20px;
+	margin-top: 150px;
+	margin-left: 40px;
+	color: #FFF;
+	background: #33a137;
+	padding: 20px 30px;
+	border-radius: 7px;
+}
+#Butt_1 a:hover{
+	background: #39c33e;
+}
+#Butt_2 a{
+	float: right;
+	font-size: 20px;
+	margin-top: 150px;
+	margin-right: 40px;
+	color: #FFF;
+	background: #33a137;
+	padding: 20px 30px;
+	border-radius: 7px;
+}
+#Butt_2 a:hover{
+	background: #39c33e;
+}
